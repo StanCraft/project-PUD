@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="navbarbg">
+			<div class="navbarCenter">
+                <button class="buttonNavbar" onclick="home()">Тръпката от спорта</button>
+				<button class="buttonNavbar" onclick="intro()">Въведение</button>
+				<button class="buttonNavbar" onclick="history()">История</button>
+				<button class="buttonNavbar" onclick="demo()">Демонстрации</button>
+				<button class="buttonNavbar" onclick="dan()">Дан система</button>
+			</div>
+        </div>
+
+        <div id="div" class="content">
+            <div class="row">
+                <div class="column">
+                    <p>&emsp;Искаш ли да научиш какво означава сплотеност и дисциплина?</p>
+                    <p>&emsp;Знаеш ли какво е нужно да бъдеш най-добър?</p>
+                    <p>&emsp;Единственото, от което имаш нужда е силен дух и всеки ще може да изпита това чувство!</p><br>
+                    <button class="buttonNavbar" style="margin: -30px 7% 10px;" onclick="toggleDiv()">
+                        Искам да разбера!
+                    </button>
+                </div>
+                <div class ="column">
+                    <div class="center">
+                        <div class="heroVid-container" id="heroVidCont" style="display: none;" onclick="playVideo()">
+                            <video id="heroVid" src="judoEdit.mp4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div>
+                Автор: Стенли Славчев<br>
+                Контакт: Джудо клуб шампион<br> 
+                <a href="#">088 500 9885</a><br>
+                Спортът е здраве!<br>
+            </div>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+
+</html>

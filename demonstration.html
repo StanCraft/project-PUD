@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/@splidejs/splide@3.0.8/dist/css/splide.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="navbarbg">
+			<div class="navbarCenter">
+                <button class="buttonNavbar" onclick="home()">Тръпката от спорта</button>
+				<button class="buttonNavbar" onclick="intro()">Въведение</button>
+				<button class="buttonNavbar" onclick="history()">История</button>
+				<button class="buttonNavbar" onclick="demo()">Демонстрации</button>
+				<button class="buttonNavbar" onclick="dan()">Дан система</button>
+			</div>
+        </div>
+        <div id="div" class="content" >
+            <!--<ul class="list">
+                <li><a id="ogoshi" href="#">Огоши</a></li>
+                <li><a id="iponsuinage" href="#">Ипонсуинаге</a></li>
+                <li><a id="osotogari" href="#">Осотогари</a></li>
+                <li><a id="ochigari" href="#">Очигари</a></li>
+                <li><a id="kochigari" href="#">Кочигари</a></li>
+                <li><a id="koshiguruma" href="#">Кошигорума</a></li>
+                <li><a id="taiotoshi" href="#">Тайотоши</a></li>
+                <li><a id="uchimata" href="#">Учимата</a></li>
+                <li><a id="podsechka" href="#">Подсечка</a></li>
+                <li><a id="haraigoshi" href="#">Харайгоши</a></li>
+                <li><a id="kataguruma" href="#">Катагорума</a></li>
+                <li><a id="uranage" href="#">Уранаге</a></li>
+                <li><a id="taiotoshikluch" href="#">Тайотоши към ключ</a></li>
+            </ul>-->
+            <div id="carousel" class="splide">
+                <div class="splide__track">
+                    <div class="splide__list">
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="ogoshi">
+                                Огоши
+                            </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="iponsuinage">
+                            Ипонсуинаге
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="osotogari">
+                            Осотогари
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="ochigari">
+                            Очигари
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="kochigari">
+                            Кочигари
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="koshiguruma">
+                            Кошигорума
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="taiotoshi">
+                            Тайотоши
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="uchimata">
+                            Учимата
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="podsechka">
+                            Подсечка
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="haraigoshi">
+                            Харайгоши
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="kataguruma">
+                            Катагорума
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="uranage">
+                            Уранаге
+                        </button></li>
+                        <li class="splide__slide">
+                            <button class="carousel-button" id="taiotoshikluch">
+                            Тайотоши към ключ
+                        </button></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                Автор: Стенли Славчев<br>
+                Контакт: Джудо клуб шампион<br> 
+                <a href="#">088 500 9885</a><br>
+                Спортът е здраве!<br>
+            </div>
+        </footer>
+        
+        <script src="app.js"></script>
+        <script src="https://unpkg.com/@splidejs/splide@3.0.8/dist/js/splide.min.js"></script>
+    </body>
+
+</html>
